@@ -17,6 +17,7 @@ macro(add_host_subdirectory group)
 endmacro()
 
 add_host_subdirectory(common
+  common/ClangHost.cpp
   common/DiagnosticsRendering.cpp
   common/DomainSocket.cpp
   common/FileAction.cpp
@@ -226,6 +227,8 @@ add_lldb_library(lldbHost NO_PLUGIN_DEPENDENCIES
     ${EXTRA_LIBS}
     ${LLDBObjCLibs}
     ${LLDB_LIBEDIT_LIBS}
+  CLANG_LIBS
+    clangOptions
   ALLOWED_INTERNAL_DEPENDENCIES
     lldbUtility
     lldbHostMacOSXObjCXX

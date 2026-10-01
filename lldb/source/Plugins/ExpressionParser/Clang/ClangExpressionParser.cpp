@@ -64,12 +64,12 @@
 #include "ClangASTSource.h"
 #include "ClangExpressionDeclMap.h"
 #include "ClangExpressionHelper.h"
-#include "ClangHost.h"
 #include "ClangModulesDeclVendor.h"
 #include "ClangPersistentVariables.h"
 #include "IRDynamicChecks.h"
 #include "IRForTarget.h"
 #include "ModuleDependencyCollector.h"
+#include "lldb/Host/common/ClangHost.h"
 
 #include "Plugins/TypeSystem/Clang/TypeSystemClang.h"
 #include "lldb/Core/Debugger.h"

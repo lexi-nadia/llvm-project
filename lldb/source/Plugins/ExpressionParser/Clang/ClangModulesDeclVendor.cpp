@@ -25,8 +25,8 @@
 #include "llvm/Support/Path.h"
 #include "llvm/Support/Threading.h"
 
-#include "ClangHost.h"
 #include "ClangModulesDeclVendor.h"
+#include "lldb/Host/common/ClangHost.h"
 
 #include "Plugins/TypeSystem/Clang/TypeSystemClang.h"
 #include "lldb/Core/ModuleList.h"

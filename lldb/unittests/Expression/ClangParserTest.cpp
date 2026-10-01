@@ -10,12 +10,12 @@
 #include "clang/Config/config.h"
 #include "clang/Options/OptionUtils.h"
 
-#include "Plugins/ExpressionParser/Clang/ClangHost.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Host/Config.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
+#include "lldb/Host/common/ClangHost.h"
 #include "lldb/Utility/FileSpec.h"
 #include "lldb/lldb-defines.h"
 #include "gtest/gtest.h"

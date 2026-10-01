@@ -19,7 +19,7 @@
 #include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/Instrumentation.h"
 
-#include "Plugins/ExpressionParser/Clang/ClangHost.h"
+#include "lldb/Host/common/ClangHost.h"
 
 #include "llvm/ADT/SmallString.h"
 #include "llvm/Support/Path.h"

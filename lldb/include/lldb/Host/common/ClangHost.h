@@ -6,8 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#ifndef LLDB_SOURCE_PLUGINS_EXPRESSIONPARSER_CLANG_CLANGHOST_H
-#define LLDB_SOURCE_PLUGINS_EXPRESSIONPARSER_CLANG_CLANGHOST_H
+#ifndef LLDB_HOST_COMMON_CLANGHOST_H
+#define LLDB_HOST_COMMON_CLANGHOST_H
 
 namespace lldb_private {
 
@@ -20,4 +20,4 @@ FileSpec GetClangResourceDir();
 
 } // namespace lldb_private
 
-#endif
+#endif // LLDB_HOST_COMMON_CLANGHOST_H

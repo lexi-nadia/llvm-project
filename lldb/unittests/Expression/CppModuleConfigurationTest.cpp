@@ -7,10 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "Plugins/ExpressionParser/Clang/CppModuleConfiguration.h"
-#include "Plugins/ExpressionParser/Clang/ClangHost.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
+#include "lldb/Host/common/ClangHost.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

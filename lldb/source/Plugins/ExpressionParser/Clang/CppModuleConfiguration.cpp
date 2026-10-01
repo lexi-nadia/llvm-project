@@ -8,8 +8,8 @@
 
 #include "CppModuleConfiguration.h"
 
-#include "ClangHost.h"
 #include "lldb/Host/FileSystem.h"
+#include "lldb/Host/common/ClangHost.h"
 #include "llvm/TargetParser/Triple.h"
 #include <optional>
 
