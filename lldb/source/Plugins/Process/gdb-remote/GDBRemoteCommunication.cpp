@@ -8,7 +8,6 @@
 
 #include "GDBRemoteCommunication.h"
 #include "ProcessGDBRemote.h"
-#include "ProcessGDBRemoteLog.h"
 #include "lldb/Host/Config.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/Host.h"
@@ -21,6 +20,7 @@
 #include "lldb/Utility/Event.h"
 #include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/Log.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/RegularExpression.h"
 #include "lldb/Utility/StreamString.h"
 #include "llvm/ADT/SmallString.h"

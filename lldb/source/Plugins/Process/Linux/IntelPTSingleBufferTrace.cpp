@@ -8,7 +8,7 @@
 
 #include "IntelPTSingleBufferTrace.h"
 
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #include "lldb/Utility/Status.h"
 #include "lldb/Utility/StreamString.h"
 #include "llvm/Support/MemoryBuffer.h"

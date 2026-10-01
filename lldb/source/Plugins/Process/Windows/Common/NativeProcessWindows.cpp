@@ -39,7 +39,7 @@
 
 #include "DebuggerThread.h"
 #include "ExceptionRecord.h"
-#include "ProcessWindowsLog.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 #include <tlhelp32.h>
 

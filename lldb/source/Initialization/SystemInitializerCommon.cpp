@@ -8,24 +8,24 @@
 
 #include "lldb/Initialization/SystemInitializerCommon.h"
 
-#include "Plugins/Process/gdb-remote/ProcessGDBRemoteLog.h"
 #include "lldb/Core/Diagnostics.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/Host.h"
 #include "lldb/Host/Socket.h"
 #include "lldb/Target/Statistics.h"
 #include "lldb/Utility/LLDBLog.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/Timer.h"
 #include "lldb/Version/Version.h"
 
 #if defined(__linux__) || defined(__FreeBSD__) || defined(__NetBSD__) ||       \
     defined(__OpenBSD__)
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #endif
 
 #if defined(_WIN32)
-#include "Plugins/Process/Windows/Common/ProcessWindowsLog.h"
 #include "lldb/Host/windows/windows.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 #include <crtdbg.h>
 #endif
 

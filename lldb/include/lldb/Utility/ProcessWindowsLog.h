@@ -6,8 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#ifndef liblldb_ProcessWindowsLog_h_
-#define liblldb_ProcessWindowsLog_h_
+#ifndef LLDB_UTILITY_PROCESSWINDOWSLOG_H
+#define LLDB_UTILITY_PROCESSWINDOWSLOG_H
 
 #include "lldb/Utility/Log.h"
 #include "llvm/ADT/BitmaskEnum.h"
@@ -34,6 +34,6 @@ public:
 };
 
 template <> Log::Channel &LogChannelFor<WindowsLog>();
-}
+} // namespace lldb_private
 
-#endif // liblldb_ProcessWindowsLog_h_
+#endif // LLDB_UTILITY_PROCESSWINDOWSLOG_H

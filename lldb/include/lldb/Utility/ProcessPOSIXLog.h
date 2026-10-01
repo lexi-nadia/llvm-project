@@ -7,8 +7,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#ifndef liblldb_ProcessPOSIXLog_h_
-#define liblldb_ProcessPOSIXLog_h_
+#ifndef LLDB_UTILITY_PROCESSPOSIXLOG_H
+#define LLDB_UTILITY_PROCESSPOSIXLOG_H
 
 #include "lldb/Utility/Log.h"
 #include "llvm/ADT/BitmaskEnum.h"
@@ -37,4 +37,4 @@ public:
 template <> Log::Channel &LogChannelFor<POSIXLog>();
 } // namespace lldb_private
 
-#endif // liblldb_ProcessPOSIXLog_h_
+#endif // LLDB_UTILITY_PROCESSPOSIXLOG_H

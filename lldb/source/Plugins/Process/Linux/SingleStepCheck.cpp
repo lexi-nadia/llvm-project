@@ -9,7 +9,7 @@
 #include "SingleStepCheck.h"
 
 #include "Plugins/Process/Linux/NativeProcessLinux.h"
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #include "lldb/Utility/Status.h"
 #include "llvm/Support/Compiler.h"
 #include "llvm/Support/Errno.h"

@@ -10,7 +10,6 @@
 
 #include "Plugins/Process/Linux/NativeThreadLinux.h"
 #include "Plugins/Process/Linux/Procfs.h"
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
 #include "Plugins/Process/Utility/LinuxProcMaps.h"
 #include "lldb/Core/ModuleSpec.h"
 #include "lldb/Host/Host.h"
@@ -27,6 +26,7 @@
 #include "lldb/Target/Target.h"
 #include "lldb/Utility/LLDBAssert.h"
 #include "lldb/Utility/LLDBLog.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #include "lldb/Utility/State.h"
 #include "lldb/Utility/Status.h"
 #include "lldb/Utility/StringExtractor.h"

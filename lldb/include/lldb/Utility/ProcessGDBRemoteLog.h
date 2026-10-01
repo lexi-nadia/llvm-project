@@ -6,8 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#ifndef LLDB_SOURCE_PLUGINS_PROCESS_GDB_REMOTE_PROCESSGDBREMOTELOG_H
-#define LLDB_SOURCE_PLUGINS_PROCESS_GDB_REMOTE_PROCESSGDBREMOTELOG_H
+#ifndef LLDB_UTILITY_PROCESSGDBREMOTELOG_H
+#define LLDB_UTILITY_PROCESSGDBREMOTELOG_H
 
 #include "lldb/Utility/Log.h"
 #include "llvm/ADT/BitmaskEnum.h"
@@ -44,4 +44,4 @@ template <> Log::Channel &LogChannelFor<process_gdb_remote::GDBRLog>();
 
 } // namespace lldb_private
 
-#endif // LLDB_SOURCE_PLUGINS_PROCESS_GDB_REMOTE_PROCESSGDBREMOTELOG_H
+#endif // LLDB_UTILITY_PROCESSGDBREMOTELOG_H

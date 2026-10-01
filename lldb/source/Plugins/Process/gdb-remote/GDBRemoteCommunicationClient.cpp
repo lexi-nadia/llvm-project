@@ -34,8 +34,8 @@
 #include "lldb/Utility/StreamString.h"
 
 #include "ProcessGDBRemote.h"
-#include "ProcessGDBRemoteLog.h"
 #include "lldb/Host/Config.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/StringExtractorGDBRemote.h"
 
 #include "llvm/ADT/STLExtras.h"

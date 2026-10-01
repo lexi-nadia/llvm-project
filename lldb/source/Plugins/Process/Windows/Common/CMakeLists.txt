@@ -13,7 +13,6 @@ add_lldb_library(lldbPluginProcessWindowsCommon PLUGIN
   NativeThreadWindows.cpp
   ProcessDebugger.cpp
   ProcessWindows.cpp
-  ProcessWindowsLog.cpp
   RegisterContextWindows.cpp
   TargetThreadWindows.cpp
   arm/RegisterContextWindows_arm.cpp

@@ -12,7 +12,7 @@
 
 #include "GDBRemoteCommunicationServer.h"
 
-#include "ProcessGDBRemoteLog.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/StringExtractorGDBRemote.h"
 #include "lldb/Utility/UnimplementedError.h"

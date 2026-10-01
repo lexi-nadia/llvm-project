@@ -9,7 +9,7 @@
 #include "IntelPTMultiCoreTrace.h"
 
 #include "Plugins/Process/Linux/Procfs.h"
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 
 #include <optional>
 

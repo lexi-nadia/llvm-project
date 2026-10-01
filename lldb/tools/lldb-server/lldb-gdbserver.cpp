@@ -20,7 +20,6 @@
 
 #include "LLDBServerUtilities.h"
 #include "Plugins/Process/gdb-remote/GDBRemoteCommunicationServerLLGS.h"
-#include "Plugins/Process/gdb-remote/ProcessGDBRemoteLog.h"
 #include "lldb/Host/Config.h"
 #include "lldb/Host/ConnectionFileDescriptor.h"
 #include "lldb/Host/FileSystem.h"
@@ -29,6 +28,7 @@
 #include "lldb/Host/common/TCPSocket.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Utility/LLDBLog.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/Status.h"
 #include "llvm/ADT/StringRef.h"
 #include "llvm/Option/ArgList.h"

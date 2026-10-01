@@ -26,7 +26,7 @@
 
 #include "DebuggerThread.h"
 #include "ExceptionRecord.h"
-#include "ProcessWindowsLog.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 #include <string>
 #include <string_view>

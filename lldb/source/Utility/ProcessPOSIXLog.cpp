@@ -6,7 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ProcessPOSIXLog.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 
 #include "llvm/Support/Threading.h"
 

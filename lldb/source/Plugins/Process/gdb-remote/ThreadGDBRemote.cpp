@@ -23,7 +23,7 @@
 #include "lldb/Utility/StringExtractorGDBRemote.h"
 
 #include "ProcessGDBRemote.h"
-#include "ProcessGDBRemoteLog.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 
 #include <memory>
 

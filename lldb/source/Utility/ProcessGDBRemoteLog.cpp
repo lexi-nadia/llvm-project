@@ -6,8 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ProcessGDBRemoteLog.h"
-#include "ProcessGDBRemote.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "llvm/Support/Threading.h"
 
 using namespace lldb;

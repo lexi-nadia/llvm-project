@@ -15,9 +15,9 @@
 #include "lldb/Utility/Status.h"
 
 #include "Plugins/Process/FreeBSD/NativeProcessFreeBSD.h"
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
 #include "Plugins/Process/Utility/RegisterInfoPOSIX_arm64.h"
 #include "Plugins/Process/Utility/RegisterTypeDetector_arm64.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 
 // clang-format off
 #include <sys/param.h>

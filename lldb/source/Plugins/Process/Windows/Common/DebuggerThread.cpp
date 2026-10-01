@@ -25,7 +25,7 @@
 #include "lldb/Utility/Predicate.h"
 #include "lldb/Utility/Status.h"
 
-#include "Plugins/Process/Windows/Common/ProcessWindowsLog.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 #include "lldb/Utility/LLDBLog.h"
 #include "llvm/ADT/STLExtras.h"

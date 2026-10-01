@@ -9,10 +9,10 @@
 #include "NativeRegisterContextLinux.h"
 
 #include "Plugins/Process/Linux/NativeProcessLinux.h"
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/common/NativeProcessProtocol.h"
 #include "lldb/Host/common/NativeThreadProtocol.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #include "lldb/Utility/RegisterValue.h"
 
 // System includes - They have to be included after framework includes because

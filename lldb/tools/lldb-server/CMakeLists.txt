@@ -73,6 +73,7 @@ add_lldb_tool(lldb-server
       lldbHost
       lldbInitialization
       lldbVersion
+      lldbPluginProcessGDBRemote
       ${LLDB_PLUGINS}
       ${LLDB_SERVER_PLUGINS}
       lldbPluginInstructionARM

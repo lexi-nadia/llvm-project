@@ -52,7 +52,10 @@ add_lldb_library(lldbUtility NO_INTERNAL_DEPENDENCIES
   Log.cpp
   NameMatches.cpp
   Policy.cpp
+  ProcessGDBRemoteLog.cpp
   ProcessInfo.cpp
+  ProcessPOSIXLog.cpp
+  ProcessWindowsLog.cpp
   RealpathPrefixes.cpp
   RegisterType.cpp
   RegisterTypeFlags.cpp

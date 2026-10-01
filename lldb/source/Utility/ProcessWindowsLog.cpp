@@ -6,7 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ProcessWindowsLog.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 using namespace lldb_private;
 

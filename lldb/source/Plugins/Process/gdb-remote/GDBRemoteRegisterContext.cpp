@@ -9,7 +9,6 @@
 #include "GDBRemoteRegisterContext.h"
 
 #include "ProcessGDBRemote.h"
-#include "ProcessGDBRemoteLog.h"
 #include "ThreadGDBRemote.h"
 #include "Utility/ARM_DWARF_Registers.h"
 #include "Utility/ARM_ehframe_Registers.h"
@@ -18,6 +17,7 @@
 #include "lldb/Target/Target.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/DataExtractor.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/RegisterValue.h"
 #include "lldb/Utility/Scalar.h"
 #include "lldb/Utility/StreamString.h"

@@ -14,11 +14,11 @@
 #include "lldb/Utility/Status.h"
 #include "lldb/lldb-private-types.h"
 
-#include "ProcessWindowsLog.h"
-#include "RegisterContextWindows_x86.h"
 #include "Plugins/Process/Utility/RegisterContext_x86.h"
-#include "TargetThreadWindows.h"
 #include "Plugins/Process/Utility/lldb-x86-register-enums.h"
+#include "RegisterContextWindows_x86.h"
+#include "TargetThreadWindows.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 #include "llvm/ADT/STLExtras.h"
 

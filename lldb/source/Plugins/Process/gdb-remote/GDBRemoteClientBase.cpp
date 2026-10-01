@@ -14,7 +14,7 @@
 #include "lldb/Target/UnixSignals.h"
 #include "lldb/Utility/LLDBAssert.h"
 
-#include "ProcessGDBRemoteLog.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 
 using namespace lldb;
 using namespace lldb_private;

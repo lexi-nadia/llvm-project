@@ -9,7 +9,7 @@
 #include "IntelPTCollector.h"
 
 #include "Plugins/Process/Linux/Procfs.h"
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #include "lldb/Utility/StreamString.h"
 #include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Error.h"

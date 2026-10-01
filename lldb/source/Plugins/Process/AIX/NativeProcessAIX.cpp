@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "NativeProcessAIX.h"
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
 #include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/HostProcess.h"
@@ -15,6 +14,7 @@
 #include "lldb/Host/posix/ProcessLauncherPosixFork.h"
 #include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Utility/Log.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #include "lldb/Utility/State.h"
 #include "lldb/Utility/Status.h"
 #include "llvm/Support/Errno.h"

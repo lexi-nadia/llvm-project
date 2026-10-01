@@ -17,10 +17,10 @@
 #include <machine/elf.h>
 // clang-format on
 
-#include "Plugins/Process/POSIX/ProcessPOSIXLog.h"
 #include "lldb/Host/HostProcess.h"
 #include "lldb/Host/posix/ProcessLauncherPosixFork.h"
 #include "lldb/Target/Process.h"
+#include "lldb/Utility/ProcessPOSIXLog.h"
 #include "lldb/Utility/State.h"
 #include "llvm/Support/Errno.h"
 

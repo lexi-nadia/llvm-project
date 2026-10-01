@@ -14,9 +14,9 @@
 #include "lldb/Utility/Status.h"
 #include "lldb/lldb-private-types.h"
 
-#include "ProcessWindowsLog.h"
 #include "RegisterContextWindows_arm.h"
 #include "TargetThreadWindows.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 #include "llvm/ADT/STLExtras.h"
 

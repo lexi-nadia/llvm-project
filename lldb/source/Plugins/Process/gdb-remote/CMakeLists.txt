@@ -35,7 +35,6 @@ add_lldb_library(lldbPluginProcessGDBRemote PLUGIN
   GDBRemoteRegisterContext.cpp
   GDBRemoteRegisterFallback.cpp
   ProcessGDBRemote.cpp
-  ProcessGDBRemoteLog.cpp
   ThreadGDBRemote.cpp
 
   LINK_COMPONENTS

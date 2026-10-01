@@ -52,7 +52,7 @@
 #include "llvm/TargetParser/Triple.h"
 
 #include "ProcessGDBRemote.h"
-#include "ProcessGDBRemoteLog.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/StringExtractorGDBRemote.h"
 
 using namespace lldb;

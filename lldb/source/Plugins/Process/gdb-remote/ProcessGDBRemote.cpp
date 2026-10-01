@@ -96,9 +96,9 @@
 #include "Plugins/Process/Utility/InferiorCallPOSIX.h"
 #include "Plugins/Process/Utility/StopInfoMachException.h"
 #include "ProcessGDBRemote.h"
-#include "ProcessGDBRemoteLog.h"
 #include "ThreadGDBRemote.h"
 #include "lldb/Host/Host.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/StringExtractorGDBRemote.h"
 
 #include "llvm/ADT/STLExtras.h"

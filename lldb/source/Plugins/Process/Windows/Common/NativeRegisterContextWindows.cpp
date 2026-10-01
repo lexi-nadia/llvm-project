@@ -13,7 +13,7 @@
 
 #include "NativeRegisterContextWindows.h"
 #include "NativeThreadWindows.h"
-#include "ProcessWindowsLog.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 using namespace lldb;
 using namespace lldb_private;

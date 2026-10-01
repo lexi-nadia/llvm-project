@@ -10,7 +10,6 @@
 #include "ProcessMockAccelerator.h"
 
 #include "Plugins/Process/gdb-remote/GDBRemoteCommunicationServerLLGS.h"
-#include "Plugins/Process/gdb-remote/ProcessGDBRemoteLog.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/ProcessLaunchInfo.h"
 #include "lldb/Host/Socket.h"
@@ -21,6 +20,7 @@
 #include "lldb/Utility/Connection.h"
 #include "lldb/Utility/LLDBLog.h"
 #include "lldb/Utility/Log.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "llvm/Support/FormatVariadic.h"
 
 #include <cstdlib>

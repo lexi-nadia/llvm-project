@@ -51,8 +51,8 @@
 #include "ExceptionRecord.h"
 #include "ForwardDecl.h"
 #include "LocalDebugDelegate.h"
-#include "ProcessWindowsLog.h"
 #include "TargetThreadWindows.h"
+#include "lldb/Utility/ProcessWindowsLog.h"
 
 using namespace lldb;
 using namespace lldb_private;

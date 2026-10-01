@@ -39,7 +39,7 @@
 #include "llvm/Support/JSON.h"
 #include "llvm/TargetParser/Triple.h"
 
-#include "ProcessGDBRemoteLog.h"
+#include "lldb/Utility/ProcessGDBRemoteLog.h"
 #include "lldb/Utility/StringExtractorGDBRemote.h"
 
 #ifdef __ANDROID__
